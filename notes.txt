@@ -1,0 +1,23 @@
+SYNTAX PARSER
+    Translates your code to machine understandable instructions
+
+LEXICAL ENVIRONMENT
+    With respect to syntaxes and grammar
+
+EXECUTION CONTEXT
+    helps to manage which code is currently running
+    section of code which is running
+
+OBJECT
+    collection of name-value pairs
+
+Global execution context has: 
+    "global object(window object)" and a special variable called "this"
+    In JS global means "not inside a function"
+    Every window has it's own global object 
+    when JS code is executed an execution context is created
+    At the base level we have "window"(global) object
+    Execution context is a wrapper which we didn't write and JS engine does create for us
+
+Hoisting
+    
